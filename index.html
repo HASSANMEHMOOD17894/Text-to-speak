@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:  rgb(243, 106, 133);
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 400px;
+            height: 380px;
+            justify-content: center;
+            border-color: aqua;
+            border-width: 2px;
+            border-radius: 30px;
+            border: 2px aqua;
+        }
+        h1{
+            text-align: center;
+            color:  rgb(243, 106, 133);
+        }
+        textarea{
+            width: 300px;
+            height: 100px;
+            resize: vertical;
+            border-color: aqua;
+            align-self: center;
+            color: white;
+            background-color: rgb(243, 106, 133);
+            border-width: 2px;
+            border-radius: 30px;
+            padding: 20px;
+        }
+        button{
+            margin-top: 20px;
+            align-self: center;
+            background-color: rgb(243, 106, 133);
+            color: white;
+            border-radius: 30px;
+            border-color: aqua;
+            box-shadow: none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Text to Speech Converter</h1>
+    <textarea id="text" name="text" ></textarea>
+    <button id="btn" onclick="convertToSpeech()">Convert to Speech</button>
+</div>
+
+    <script src="Textconverter.mjs">
+        
+
+    </script>
+</body>
+</html>
